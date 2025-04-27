@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
 html,
 body {
     margin: 0;
@@ -12,6 +15,12 @@ body {
 header,
 main {
     width: 1200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Dongle", sans-serif;
+    color: #e383a8;
 }
 
 header {
@@ -29,21 +38,22 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     background-color: #fcf0f8;
     margin-bottom: 32px;
 }
 
 .header__character__en_name {
     font-size: 24px;
-    margin-bottom: 6px;
     color: #e383a8;
+    font-family: cursive;
 }
 
 .header__character__ko_name {
-    font-size: 44px;
+    font-size: 74px;
     font-weight: 600;
     color: #e383a8;
+    font-family: "Dongle", sans-serif;
 }
 
 .header__character__group {
@@ -133,6 +143,7 @@ header {
 
 .section__character__friend__list img {
     width: 200px;
+    height: 160px;
     margin-bottom: 12px;
 }
 
