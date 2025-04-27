@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+main {
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/images/my_melody_bg.jpg');
+    background-size: contain;
+    padding: 40px 0;
+}
+
+.header__character__name__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: #fcf0f8;
+    margin-bottom: 32px;
+}
+
+.header__character__en_name {
+    font-size: 24px;
+    margin-bottom: 6px;
+    color: #e383a8;
+}
+
+.header__character__ko_name {
+    font-size: 44px;
+    font-weight: 600;
+    color: #e383a8;
+}
+
+.header__character__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-image: url('../assets/images/my_melody_key_image_bg.jpg');
+    border-radius: 50%;
+}
+
+.header__character__image {
+    width: 340px;
+    height: 340px;
+}
