@@ -1,3 +1,8 @@
+html,
+body {
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -55,4 +60,97 @@ header {
 .header__character__image {
     width: 340px;
     height: 340px;
+}
+
+.section__character__information {
+    display: flex;
+    align-items: center;
+}
+
+.section__character__image {
+    width: 600px;
+}
+
+.section__character__information__text {
+    width: 100%;
+    padding-left: 32px;
+}
+
+.section__character__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__character__profile__text {
+    width: 100%;
+    padding-right: 32px;
+}
+
+.section__character__profile__list li {
+    margin-bottom: 8px;
+}
+
+.section__character__family__information h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section__character__family__list {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.section__character__family__list img {
+    width: 200px;
+    margin-bottom: 12px;
+}
+
+.section__character__family__character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__character__family__character span {
+    font-size: 18px;
+    color: #e383a8;
+}
+
+.section__character__friend__information h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section__character__friend__list {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.section__character__friend__list img {
+    width: 200px;
+    margin-bottom: 12px;
+}
+
+.section__character__friend__character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__character__friend__character span {
+    font-size: 18px;
+    color: #e383a8;
+}
+
+footer {
+    width: 1200px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #e383a8;
+    color: #ffffff;
 }
