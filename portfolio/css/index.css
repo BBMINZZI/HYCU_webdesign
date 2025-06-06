@@ -401,12 +401,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 274px;
+  background-color: #1F1F1F;
 }
 
 .footer__Title {
   font-size: 22px;
   font-weight: 700;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 18px;
   animation: fadeInUp 1s ease-in-out;
 }
@@ -414,14 +415,14 @@ body {
 .footer__Email {
   all: unset;
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   animation: fadeInUp 1s ease-in-out;
   margin-bottom: 8px;
 }
 
 .footer__Email a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
 }
 
 .footer__Email a:hover {
@@ -430,7 +431,7 @@ body {
 
 .footer__Copyright {
   font-size: 14px;
-  color: #333;
+  color: #ffffff;
   animation: fadeInUp 1s ease-in-out;
 }
 
