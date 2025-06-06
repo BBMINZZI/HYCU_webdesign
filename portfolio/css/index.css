@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* -------------------------------- */
+/*            Navigation            */
+/* -------------------------------- */
+
+.navigation__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #FFD4D0;
+}
+
+.navigation__List {
+  all: unset;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navigation__Item {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  padding: 20px;
+}
+
+.navigation__Item a {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+}
+
+.navigation__Item a:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.navigation__Item a:hover::after {
+  width: 100%;
+}
+
+/* -------------------------------- */
+/*         First Section          */
+/* -------------------------------- */
+
+
+.first__Section__Container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-color: #FFD4D0;
+  height: 620px;
+  padding-top: 20px;
+}
+
+.first__Section__Greeting__Title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 32px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.first__Section__Greeting__Hashtags {
+  all: unset;
+  display: block;
+  list-style: none;
+  margin-bottom: 26px;
+}
+
+.first__Section__Greeting__Hashtag {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.first__Section__Greeting__Instagram__Button {
+  all: unset;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.first__Section__Greeting__Instagram__Button:hover {
+  background-color: #666;
+}
+
+.first__Section__Greeting__Instagram__Button a {
+  all: unset;
+  cursor: pointer;
+}
+
+.first__Section__Image__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.first__Section__Image {
+  width: 360px;
+  height: 540px;
+  object-fit: cover;
+  animation: fadeInUp 1s ease-in-out;
+  border-radius: 12px;
+}
+
+.first__Section__Image__Caption {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+}
+
+/* -------------------------------- */
+/*         Second Section           */
+/* -------------------------------- */
+
+.second__Section__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 274px;
+  background-color: #1F1F1F;
+}
+
+.second__Section__Title {
+  font-size: 24px;
+  color: #FFD4D0;
+  margin-bottom: 26px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.second__Section__List { 
+  all: unset;
+  display: block;
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.second__Section__Item {
+  color: #ffffff;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* -------------------------------- */
+/*         Third Section           */
+/* -------------------------------- */
+
+.third__Section__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 420px;
+  background-color: #FFD4D0;
+}
+
+.third__Section__Image__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.third__Section__Image {
+  width: 400px;
+  height: 260px;
+  object-fit: cover;
+  animation: fadeInUp 1s ease-in-out;
+  border-radius: 4px;
+}
+
+.third__Section__Image__Caption {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+  text-align: right;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.third__Section__Text__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.third__Section__Title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.third__Section__Text {
+  animation: fadeInUp 1s ease-in-out;
+  margin-bottom: 26px;
+}
+
+.third__Section__Button {
+  all: unset;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  animation: fadeInUp 1s ease-in-out;
+  transition: background-color 0.3s ease;
+}
+
+.third__Section__Button:hover {
+  background-color: #666;
+}
+
+/* -------------------------------- */
+/*         Forth Section           */
+/* -------------------------------- */
+
+
+.forth__Section__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 420px;
+}
+
+.forth__Section__Image__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.forth__Section__Image {  
+  width: 400px;
+  height: 260px;
+  object-fit: cover;
+  animation: fadeInUp 1s ease-in-out;
+  border-radius: 4px;
+}
+
+.forth__Section__Image__Caption {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+  text-align: right;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.forth__Section__Text__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.forth__Section__Title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.forth__Section__Text {
+  animation: fadeInUp 1s ease-in-out;
+  margin-bottom: 26px;
+}
+
+.forth__Section__Button {
+  all: unset;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  animation: fadeInUp 1s ease-in-out;
+  transition: background-color 0.3s ease;
+}
+
+.forth__Section__Button:hover {
+  background-color: #666;
+}
+
+/* -------------------------------- */
+/*         Fifth Section           */
+/* -------------------------------- */
+
+.fifth__Section__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 420px;
+  background-color: #FFD4D0;
+}
+
+.fifth__Section__Image__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fifth__Section__Image {
+  width: 400px;
+  height: 260px;
+  object-fit: cover;
+  animation: fadeInUp 1s ease-in-out;
+  border-radius: 4px;
+}
+
+.fifth__Section__Image__Caption {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+  text-align: right;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.fifth__Section__Text__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.fifth__Section__Title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.fifth__Section__Text {
+  animation: fadeInUp 1s ease-in-out;
+  margin-bottom: 26px;
+}
+
+.fifth__Section__Button {
+  all: unset;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fadeInUp 1s ease-in-out;
+  transition: background-color 0.3s ease;
+}
+
+.fifth__Section__Button:hover {
+  background-color: #666;
+}
+
+/* -------------------------------- */
+/*         Footer Section           */
+/* -------------------------------- */
+
+
+.footer__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 274px;
+}
+
+.footer__Title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 18px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.footer__Email {
+  all: unset;
+  text-decoration: none;
+  color: #333;
+  animation: fadeInUp 1s ease-in-out;
+  margin-bottom: 8px;
+}
+
+.footer__Email a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer__Email a:hover {
+  color: #FFD4D0;
+}
+
+.footer__Copyright {
+  font-size: 14px;
+  color: #333;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
